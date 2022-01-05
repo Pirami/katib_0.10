@@ -1,0 +1,37 @@
+{
+  "name": "frontend",
+  "homepage": ".",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "ace-builds": "^1.4.8",
+    "axios": "^0.18.0",
+    "graphviz-react": "^1.0.6",
+    "js-yaml": "^3.13.1",
+    "plotly.js": "^1.45.0",
+    "react": "^16.8.3",
+    "react-ace": "^8.0.0",
+    "react-dom": "^16.8.3",
+    "react-plotly.js": "^2.3.0",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "3.2.0",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "format:check": "prettier --check 'src/**/*.{jsx,js}' || node scripts/check-format-error.js",
+    "format:write": "prettier --write 'src/**/*.{jsx,js}'"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
